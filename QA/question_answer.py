@@ -1,7 +1,6 @@
 import telebot
 from typing import Final 
 
-TOKEN = '7579965998:AAFMTKhdrRCkY5pDaVV_4Y4NmvTwJTwVmdo'
 bot = telebot.TeleBot(TOKEN) # You can set parse_mode by default. HTML or MARKDOWN
 
 @bot.message_handler(commands=['start', 'help'])
